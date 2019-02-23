@@ -21,7 +21,7 @@
 .section__name {
   font-size: 17px;
   font-family: apercu;
-  margin-bottom: 3px; }
+  margin-bottom: 5px; }
   .section__name span {
     color: red; }
 
@@ -79,7 +79,7 @@
         color: #BDC3C7; }
       .hover__card .hover__card__container .hover__content__container .playable__content {
         border: 1.5px solid white;
-        background-color: #000000;
+        background-color: #00000090;
         text-align: center;
         width: 12%;
         font-size: 12px;
