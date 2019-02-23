@@ -437,6 +437,35 @@ body {
 
             }
         }
+        .section__eight {
+            flex-flow: row nowrap;
+            min-height: 600px;
+            .section__eight__maxi {
+                display: flex;
+                height: 100%;
+                flex-basis: 75%;
+            }
+            .section__eight__mini {
+                display: flex;
+                flex-flow: column nowrap;
+                flex-basis: 23%;
+                .section__eight__content {
+                    @include standard;
+                    flex-flow: column nowrap;
+                    justify-content: space-around;
+                    .section__eight__content__card__mini {
+                        flex-basis: 10%;
+                        margin-bottom: 5%;
+                        .hover__card__title {
+                            font-size: 14px !important;
+                        }
+                    }
+                    .__maxi__ {
+                        height: 400px; !important;
+                    }
+                }
+            }
+        }
     }
 
 }
