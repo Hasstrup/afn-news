@@ -118,7 +118,7 @@ body {
         flex-basis: 64%; }
         body .header .section-two .section-two__grid p {
           font-size: 10.5px;
-          font-family: acumin-main;
+          font-family: apercu;
           font-weight: bold;
           text-transform: uppercase; }
           body .header .section-two .section-two__grid p:hover {
@@ -169,7 +169,7 @@ body {
           object-fit: cover; }
         body .main__body .--section__one .section__one__large__card .__card__text h4 {
           font-size: 17px;
-          font-family: acumin-main;
+          font-family: apercu;
           width: 80%;
           margin-bottom: -3px; }
         body .main__body .--section__one .section__one__large__card .__card__text .__card__title__description {
@@ -182,7 +182,7 @@ body {
           font-family: acumin; }
         body .main__body .--section__one .section__one__large__card .__card__text .__card__links {
           font-size: 10.5px;
-          font-family: acumin-main; }
+          font-family: apercu; }
       body .main__body .--section__one .section__one__mid__card {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -213,9 +213,42 @@ body {
             height: 70%; }
           body .main__body .--section__one .section__one__mid__card .__mid__card__content .__card__md__title {
             font-size: 11px;
-            font-family: acumin-main; }
+            font-family: apercu; }
           body .main__body .--section__one .section__one__mid__card .__mid__card__content .__card__md__desc {
             font-size: 10px;
             margin-top: -5px;
             font-family: acumin;
             color: #BDC3C7; }
+      body .main__body .--section__one .__cards__list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 29%;
+        flex-basis: 29%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+        margin: -2% 0 0 -6.5%; }
+        body .main__body .--section__one .__cards__list .__cards__header {
+          font-size: 18px;
+          font-family: apercu; }
+          body .main__body .--section__one .__cards__list .__cards__header span {
+            color: red; }
+        body .main__body .--section__one .__cards__list .__ordered__list {
+          height: 60%;
+          padding: 0;
+          position: relative;
+          top: -6%; }
+          body .main__body .--section__one .__cards__list .__ordered__list li {
+            border-bottom: .5px solid #E5E7E9;
+            font-family: apercu;
+            font-size: 11.5px;
+            padding: 9px;
+            padding-left: 0;
+            outline: none;
+            list-style-type: none; }
+            body .main__body .--section__one .__cards__list .__ordered__list li .video__indicator {
+              color: #BDC3C7;
+              font-size: 10.5px;
+              float: right; }

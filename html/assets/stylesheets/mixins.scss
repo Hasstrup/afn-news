@@ -1,6 +1,6 @@
 $boldText: gotham;
 $lightText: acumin;
-$mediumText: acumin-main;
+$mediumText: apercu;
 $lightWhite: #BDC3C7;
 
 
@@ -8,4 +8,23 @@ $lightWhite: #BDC3C7;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
+}
+
+@mixin list {
+    height: 60%;
+    padding: 0;
+    li {
+        border-bottom: .5px solid #E5E7E9;
+        font-family: apercu;
+        font-size: 11.5px;
+        padding: 9px;
+        padding-left: 0;
+        outline: none;
+        list-style-type: none;
+        .video__indicator {
+            color: $lightWhite;
+            font-size: 10.5px;
+            float: right;
+        }
+    } 
 }

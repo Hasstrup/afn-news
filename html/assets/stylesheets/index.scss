@@ -178,6 +178,25 @@ body {
                     }
                 }
             }
+            .__cards__list {
+                display: flex;
+                flex-basis: 29%;
+                flex-flow: column nowrap;
+                margin: -2% 0 0 -6.5%;
+                .__cards__header {
+                    font-size: 18px;
+                    font-family: $mediumText;
+                    
+                    span {
+                        color: red;
+                    }
+                }
+                .__ordered__list {
+                    @include list;
+                    position: relative;
+                    top: -6%;         
+                }
+            }
         }
     }
 
