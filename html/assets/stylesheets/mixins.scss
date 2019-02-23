@@ -30,10 +30,9 @@ $lightWhite: #BDC3C7;
 }
 
 @mixin hover-card {
-    display: flex;
-    height: 100%;
+    position: relative;
     .hover__card__image {
-        height: 460px;
+        height: 100%;
         width: 100%;
         object-fit: cover;        
     }
@@ -45,17 +44,40 @@ $lightWhite: #BDC3C7;
         position: absolute;
         top: 0;
         z-index: 2;
+        justify-content: flex-end;
         background-color: #00000030;
         color: white;
 
         .hover__content__container {
-            display: flex;
             flex-flow: column nowrap;
-            justify-content: flex-end;
-            flex-basis: 50%;
+            flex-basis: 40%;
             padding-left: 5%;
             background-image: linear-gradient(to top, rgba(12, 12, 12,1), rgba(12, 12, 12,0.75), rgba(12, 12, 12,0));
-            
+            .hover__card__title {
+                font-size: 20px;
+                font-family: $boldText;
+                margin-bottom: -1%;
+            }
+            .hover__card__time {
+                position: relative;
+                color: #909497;
+                font-size: 12px;
+                font-family: $lightText;
+            }
+            .hover__card__bullets {
+                font-family: $lightText;
+                font-size: 13px;
+                color: #BDC3C7;
+            }
+            .playable__content {
+                border: 1.5px solid white;
+                background-color: #000000;
+                text-align: center;
+                width: 12%;
+                font-size: 12px;
+                padding: 3px;
+                font-family: calibre;
+            }
         }
     }
 }

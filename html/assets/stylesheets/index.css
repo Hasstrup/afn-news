@@ -252,3 +252,177 @@ body {
               color: #BDC3C7;
               font-size: 10.5px;
               float: right; }
+    body .main__body .section__two {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+      height: 350px; }
+      body .main__body .section__two .section__two__large__grid {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        width: 100%; }
+        body .main__body .section__two .section__two__large__grid .section__two__content__card {
+          width: 60%;
+          height: 100%;
+          margin-right: 2%;
+          position: relative; }
+          body .main__body .section__two .section__two__large__grid .section__two__content__card .hover__card__image {
+            height: 100%;
+            width: 100%;
+            -o-object-fit: cover;
+            object-fit: cover; }
+          body .main__body .section__two .section__two__large__grid .section__two__content__card .hover__card__container {
+            height: 100%;
+            width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+            position: absolute;
+            top: 0;
+            z-index: 2;
+            -webkit-box-pack: end;
+            -ms-flex-pack: end;
+            justify-content: flex-end;
+            background-color: #00000030;
+            color: white; }
+            body .main__body .section__two .section__two__large__grid .section__two__content__card .hover__card__container .hover__content__container {
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+              -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap;
+              -ms-flex-preferred-size: 40%;
+              flex-basis: 40%;
+              padding-left: 5%;
+              background-image: -webkit-gradient(linear, left bottom, left top, from(#0c0c0c), color-stop(rgba(12, 12, 12, 0.75)), to(rgba(12, 12, 12, 0)));
+              background-image: -webkit-linear-gradient(bottom, #0c0c0c, rgba(12, 12, 12, 0.75), rgba(12, 12, 12, 0));
+              background-image: -o-linear-gradient(bottom, #0c0c0c, rgba(12, 12, 12, 0.75), rgba(12, 12, 12, 0));
+              background-image: linear-gradient(to top, #0c0c0c, rgba(12, 12, 12, 0.75), rgba(12, 12, 12, 0)); }
+              body .main__body .section__two .section__two__large__grid .section__two__content__card .hover__card__container .hover__content__container .hover__card__title {
+                font-size: 20px;
+                font-family: gotham;
+                margin-bottom: -1%; }
+              body .main__body .section__two .section__two__large__grid .section__two__content__card .hover__card__container .hover__content__container .hover__card__time {
+                position: relative;
+                color: #909497;
+                font-size: 12px;
+                font-family: acumin; }
+              body .main__body .section__two .section__two__large__grid .section__two__content__card .hover__card__container .hover__content__container .hover__card__bullets {
+                font-family: acumin;
+                font-size: 13px;
+                color: #BDC3C7; }
+              body .main__body .section__two .section__two__large__grid .section__two__content__card .hover__card__container .hover__content__container .playable__content {
+                border: 1.5px solid white;
+                background-color: #000000;
+                text-align: center;
+                width: 12%;
+                font-size: 12px;
+                padding: 3px;
+                font-family: calibre; }
+        body .main__body .section__two .section__two__large__grid .grid__section__two {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-preferred-size: 32%;
+          flex-basis: 32%;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+          margin-top: -3.5%; }
+          body .main__body .section__two .section__two__large__grid .grid__section__two .section__name {
+            font-size: 17px;
+            font-family: apercu;
+            margin-bottom: 3px; }
+            body .main__body .section__two .section__two__large__grid .grid__section__two .section__name span {
+              color: red; }
+          body .main__body .section__two .section__two__large__grid .grid__section__two .video__section {
+            position: relative;
+            height: 160px; }
+            body .main__body .section__two .section__two__large__grid .grid__section__two .video__section .hover__card__image {
+              height: 100%;
+              width: 100%;
+              -o-object-fit: cover;
+              object-fit: cover; }
+            body .main__body .section__two .section__two__large__grid .grid__section__two .video__section .hover__card__container {
+              height: 100%;
+              width: 100%;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+              -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap;
+              position: absolute;
+              top: 0;
+              z-index: 2;
+              -webkit-box-pack: end;
+              -ms-flex-pack: end;
+              justify-content: flex-end;
+              background-color: #00000030;
+              color: white; }
+              body .main__body .section__two .section__two__large__grid .grid__section__two .video__section .hover__card__container .hover__content__container {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+                -ms-flex-preferred-size: 40%;
+                flex-basis: 40%;
+                padding-left: 5%;
+                background-image: -webkit-gradient(linear, left bottom, left top, from(#0c0c0c), color-stop(rgba(12, 12, 12, 0.75)), to(rgba(12, 12, 12, 0)));
+                background-image: -webkit-linear-gradient(bottom, #0c0c0c, rgba(12, 12, 12, 0.75), rgba(12, 12, 12, 0));
+                background-image: -o-linear-gradient(bottom, #0c0c0c, rgba(12, 12, 12, 0.75), rgba(12, 12, 12, 0));
+                background-image: linear-gradient(to top, #0c0c0c, rgba(12, 12, 12, 0.75), rgba(12, 12, 12, 0)); }
+                body .main__body .section__two .section__two__large__grid .grid__section__two .video__section .hover__card__container .hover__content__container .hover__card__title {
+                  font-size: 20px;
+                  font-family: gotham;
+                  margin-bottom: -1%; }
+                body .main__body .section__two .section__two__large__grid .grid__section__two .video__section .hover__card__container .hover__content__container .hover__card__time {
+                  position: relative;
+                  color: #909497;
+                  font-size: 12px;
+                  font-family: acumin; }
+                body .main__body .section__two .section__two__large__grid .grid__section__two .video__section .hover__card__container .hover__content__container .hover__card__bullets {
+                  font-family: acumin;
+                  font-size: 13px;
+                  color: #BDC3C7; }
+                body .main__body .section__two .section__two__large__grid .grid__section__two .video__section .hover__card__container .hover__content__container .playable__content {
+                  border: 1.5px solid white;
+                  background-color: #000000;
+                  text-align: center;
+                  width: 12%;
+                  font-size: 12px;
+                  padding: 3px;
+                  font-family: calibre; }
+            body .main__body .section__two .section__two__large__grid .grid__section__two .video__section .hover__card__title {
+              font-size: 13px !important;
+              font-family: acumin-main !important;
+              position: relative;
+              bottom: -12%; }
+          body .main__body .section__two .section__two__large__grid .grid__section__two .__list__ {
+            height: 60%;
+            padding: 0; }
+            body .main__body .section__two .section__two__large__grid .grid__section__two .__list__ li {
+              border-bottom: .5px solid #E5E7E9;
+              font-family: apercu;
+              font-size: 11.5px;
+              padding: 9px;
+              padding-left: 0;
+              outline: none;
+              list-style-type: none; }
+              body .main__body .section__two .section__two__large__grid .grid__section__two .__list__ li .video__indicator {
+                color: #BDC3C7;
+                font-size: 10.5px;
+                float: right; }

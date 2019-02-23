@@ -200,7 +200,48 @@ body {
         }
         // SECTION TWO
         .section__two {
-            
+            flex-flow: column nowrap;
+            height: 350px;
+            .section__two__large__grid {
+                display: flex;
+                flex-basis: 100%;
+                flex-flow: row nowrap;
+                
+                width: 100%;
+                .section__two__content__card {
+                    width: 60%;
+                    height: 100%;
+                    margin-right: 2%;
+                    @include hover-card
+                }
+                .grid__section__two {
+                    display: flex;
+                    flex-basis: 32%;
+                    flex-flow: column nowrap;
+                    margin-top: -3.5%;
+                    .section__name {
+                        font-size: 17px;
+                        font-family: $mediumText;
+                        span {
+                            color: red;
+                        }
+                        margin-bottom: 3px;
+                    }
+                    .video__section {
+                        @include hover-card;
+                        height: 160px;
+                        .hover__card__title {
+                            font-size: 13px !important;
+                            font-family: acumin-main !important;
+                            position: relative;
+                            bottom: -12%;
+                        }   
+                    }
+                    .__list__ {
+                        @include list
+                    }
+                }
+            }
         }
     }
 
