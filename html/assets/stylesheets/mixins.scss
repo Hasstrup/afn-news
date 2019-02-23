@@ -1,0 +1,9 @@
+$boldText: gotham;
+$lightText: acumin;
+$mediumText: calibre;
+
+@mixin grid {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,76 @@
+@import './mixins.scss';
+
+body {
+    margin: 0;
+    .header {
+        display: flex;
+        height: 80px;
+        width: 100%;
+        flex-flow: column nowrap;
+        .header__section {
+            display: flex;
+            flex-basis: 50%;
+            height: 100%;
+            justify-content: center;
+        }
+        .section-one {
+            .__left {
+                display: flex;
+                flex-flow: row nowrap;
+                flex-basis: 45%;
+                .__left__title {
+                    font-size: 23px;
+                    font-family: $boldText;
+                    span {
+                        color: white;
+                        background-color: red;
+                        padding: 5px 5px;
+                    }
+                }
+                .__left__grid {
+                    @include grid; 
+                    justify-content: space-evenly;
+                    width: 42%;
+                    .__left__grid__item {
+                        height: 25px;
+                        margin-top: 15px;
+                        font-size: 8.5px;
+                        font-family: $lightText;
+                        text-align: center;
+                        padding-top: 13px;
+                        border:  .5px solid #D7DBDD80;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                        p {
+                            width: 60%;
+                            position: relative;
+                            top: -10px;
+                            left: 10px;
+                            font-weight: 700;
+                        }
+                    }  
+                }
+            }
+            .__right {
+                display: flex;
+                flex-basis: 55%;
+                .section__right__grid {
+                    display: flex;
+                    width: 100%;
+                    flex-flow: row nowrap;
+                    justify-content: space-between;
+                    position: relative;
+                    bottom: -15px; 
+                    p {
+                        font-family: $lightText;
+                        font-size: 12px;
+                        margin-right: 5px;
+                        color: #D5D8DC;
+                    }
+                }
+            }
+        }
+      
+    }
+}
