@@ -4,12 +4,14 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 80px;
+    height: 120px;
     width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-flow: column nowrap;
-    flex-flow: column nowrap; }
+    flex-flow: column nowrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
     body .header .header__section {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -91,3 +93,43 @@ body {
           font-size: 12px;
           margin-right: 5px;
           color: #D5D8DC; }
+    body .header .section-two {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+      body .header .section-two .section-two__grid {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -ms-flex-preferred-size: 64%;
+        flex-basis: 64%; }
+        body .header .section-two .section-two__grid p {
+          font-size: 10.5px;
+          font-family: acumin-main;
+          font-weight: bold;
+          text-transform: uppercase; }
+          body .header .section-two .section-two__grid p:hover {
+            cursor: pointer;
+            text-decoration: underline; }
+      body .header .section-two .--input__tag {
+        color: #909497;
+        background-color: #f2f3f5;
+        outline: none;
+        height: 30px;
+        width: 180px;
+        border-radius: 3px;
+        border: none;
+        padding-left: 10px; }
