@@ -126,10 +126,96 @@ body {
             text-decoration: underline; }
       body .header .section-two .--input__tag {
         color: #909497;
-        background-color: #f2f3f5;
+        background-color: #BDC3C7;
         outline: none;
         height: 30px;
         width: 180px;
         border-radius: 3px;
         border: none;
         padding-left: 10px; }
+  body .main__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    padding-left: 5%; }
+    body .main__body .main__body__section {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%; }
+    body .main__body .--section__one {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap; }
+      body .main__body .--section__one .section__one__large__card {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 49%;
+        flex-basis: 49%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap; }
+        body .main__body .--section__one .section__one__large__card .__card__image {
+          height: 250px;
+          width: 80%;
+          -o-object-fit: cover;
+          object-fit: cover; }
+        body .main__body .--section__one .section__one__large__card .__card__text h4 {
+          font-size: 17px;
+          font-family: acumin-main;
+          width: 80%;
+          margin-bottom: -3px; }
+        body .main__body .--section__one .section__one__large__card .__card__text .__card__title__description {
+          font-size: 11.5px;
+          font-family: acumin;
+          color: #909497; }
+        body .main__body .--section__one .section__one__large__card .__card__text .__card__time {
+          font-size: 10.5px;
+          color: #BDC3C7;
+          font-family: acumin; }
+        body .main__body .--section__one .section__one__large__card .__card__text .__card__links {
+          font-size: 10.5px;
+          font-family: acumin-main; }
+      body .main__body .--section__one .section__one__mid__card {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 23%;
+        flex-basis: 23%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        position: relative;
+        left: -9%; }
+        body .main__body .--section__one .section__one__mid__card .__mid__card__content {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+          height: 200px; }
+          body .main__body .--section__one .section__one__mid__card .__mid__card__content img {
+            -o-object-fit: cover;
+            object-fit: cover;
+            width: 100%;
+            height: 70%; }
+          body .main__body .--section__one .section__one__mid__card .__mid__card__content .__card__md__title {
+            font-size: 11px;
+            font-family: acumin-main; }
+          body .main__body .--section__one .section__one__mid__card .__mid__card__content .__card__md__desc {
+            font-size: 10px;
+            margin-top: -5px;
+            font-family: acumin;
+            color: #BDC3C7; }
