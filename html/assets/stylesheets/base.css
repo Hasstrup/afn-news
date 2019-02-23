@@ -119,3 +119,25 @@
       margin-top: -5px;
       font-family: acumin;
       color: #BDC3C7; }
+
+.__section__grid__item {
+  height: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  border-radius: 4px; }
+  .__section__grid__item .__grid__image {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 75%; }
+  .__section__grid__item .__grid__description {
+    width: 80%;
+    font-family: gotham;
+    font-size: 13px;
+    padding-left: 4%; }

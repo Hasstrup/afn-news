@@ -36,3 +36,7 @@
   .__mid__card__content {
       @include mid-card
   }
+
+  .__section__grid__item {
+    @include section-card
+}

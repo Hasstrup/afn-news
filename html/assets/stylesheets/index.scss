@@ -314,9 +314,6 @@ body {
                 height: 100%;
                 padding-bottom: 1.5%;
                 background-color: #F2F3F4;
-                .__section__grid__item {
-                    @include section-card
-                }
                 .__section__grid__ {
                     display: flex;
                     flex-flow: row nowrap;
@@ -404,6 +401,40 @@ body {
                         }
                     }
                 }
+            }
+        }
+        .section__seven {
+            flex-flow: column nowrap;
+            height: 520px;
+            .section__seven__content {
+                @include standard;
+                flex-flow: column nowrap;
+                .section__seven__first__grid {
+                    display: flex;
+                    flex-basis: 42%;
+                    margin-bottom: 2%;
+                    flex-flow: row nowrap;
+                    justify-content: space-evenly;
+                    background-color: #F2F3F4;
+                    padding: 10px;
+                    .__section__grid__item {
+                        flex-basis: 23%;
+                    }
+                }
+                .section__seven__second__grid {
+                    display: flex; 
+                    flex-basis: 60%;
+                    width: 100%;
+                    flex-flow: row nowrap;
+                    justify-content: space-evenly;
+                    .section__seven__content__card__mini {
+                        flex-basis: 30%;
+                        .hover__card__title {
+                            font-size: 14px !important;
+                        }
+                    }
+                }
+
             }
         }
     }
