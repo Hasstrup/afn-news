@@ -28,3 +28,34 @@ $lightWhite: #BDC3C7;
         }
     } 
 }
+
+@mixin hover-card {
+    display: flex;
+    height: 100%;
+    .hover__card__image {
+        height: 460px;
+        width: 100%;
+        object-fit: cover;        
+    }
+    .hover__card__container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        position: absolute;
+        top: 0;
+        z-index: 2;
+        background-color: #00000030;
+        color: white;
+
+        .hover__content__container {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-end;
+            flex-basis: 50%;
+            padding-left: 5%;
+            background-image: linear-gradient(to top, rgba(12, 12, 12,1), rgba(12, 12, 12,0.75), rgba(12, 12, 12,0));
+            
+        }
+    }
+}
