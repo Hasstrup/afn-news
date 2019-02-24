@@ -176,6 +176,20 @@ body {
                 }
             }
         }
+        .section__two {
+            display: flex;
+            flex-flow: column nowrap;
+            width: 100%;
+            min-height: 300px;
+            .section__two__content__grid {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-evenly;
+                .mid__card__ {
+                    flex-basis: 24%;
+                }
+            }
+        }
     }
 
 }
