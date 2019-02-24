@@ -443,7 +443,71 @@ body {
             .section__eight__maxi {
                 display: flex;
                 height: 100%;
-                flex-basis: 75%;
+                flex-basis: 78%;
+                flex-flow: column nowrap;
+                .eight__maxi__section__uno {
+                    display: flex;
+                    flex-basis: 25%;
+                    flex-flow: column nowrap;
+                    .__uno__content {
+                        display: flex;
+                        @include standard;
+                        flex-flow: row nowrap;
+                        padding-bottom: 5%;
+                        div {
+                            flex-basis: 45%;
+                            margin-right: 3%;
+                        }
+                        .hover__card__time {
+                            color: white !important;
+                            position: absolute;
+                            bottom: 0;
+                        }
+                        .hover__content__container {
+                            position: relative;
+                            width: 95% !important;
+                        }
+                        .__cards__list {
+                            display: flex;
+                            flex-flow: row wrap;
+                            align-items: space-evenly;
+                            margin-top: -2.5%;
+                            flex-basis: 55% !important;
+                            justify-content: space-around;
+                            .__list__card__content {
+                                flex-basis: 33%;
+                                height: 50px;
+                                margin-right: 5%;
+                                border-bottom: .8px solid #CACFD250; 
+                                font-family: $mediumText;
+                                padding: 10px;
+                                .__card__title {
+                                    font-size: 10.5px;
+                                }
+                                .__card__origin {
+                                    margin-top: -4%;
+                                    font-size: 9px;
+                                    color: #CACFD2;
+                                } 
+                            }
+                        }
+                    }
+                }
+                .eight__maxi__section__duo {
+                    display: flex;
+                    width: 100%;
+                    flex-basis: 70%;
+                    flex-flow: row nowrap;
+                    .__section__duo__content {
+                        display: flex;
+                        flex-basis: 45%;
+                        flex-flow: column nowrap;
+                        height: 100%;
+                        
+
+                    }
+                }
+
             }
             .section__eight__mini {
                 display: flex;
@@ -453,6 +517,7 @@ body {
                     @include standard;
                     flex-flow: column nowrap;
                     justify-content: space-around;
+
                     .section__eight__content__card__mini {
                         flex-basis: 10%;
                         margin-bottom: 5%;
@@ -461,7 +526,7 @@ body {
                         }
                     }
                     .__maxi__ {
-                        height: 400px; !important;
+                        height: 400px !important;
                     }
                 }
             }
