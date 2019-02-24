@@ -567,10 +567,25 @@ body {
                     }
                     .__maxi__ {
                         height: 500px !important;
+                        .hover__content__container {
+                            flex-basis: auto;
+                        }
                         .hover__card__title {
                             font-size: 17px !important;
                         }
                     }
+                }
+            }
+        }
+        // Section 9
+        .section__nine {
+            flex-flow: column nowrap;
+            height: 120px !important;
+            .section__nine__content__card__mini {
+                height: 100%;
+                width: 95% !important;
+                .hover__content__container {
+                    flex-basis: auto;
                 }
             }
         }

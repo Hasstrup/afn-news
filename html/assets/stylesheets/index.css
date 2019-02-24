@@ -1034,5 +1034,20 @@ body {
               font-size: 13px !important; }
           body .main__body .section__eight .section__eight__mini .section__eight__content .__maxi__ {
             height: 500px !important; }
+            body .main__body .section__eight .section__eight__mini .section__eight__content .__maxi__ .hover__content__container {
+              -ms-flex-preferred-size: auto;
+              flex-basis: auto; }
             body .main__body .section__eight .section__eight__mini .section__eight__content .__maxi__ .hover__card__title {
               font-size: 17px !important; }
+    body .main__body .section__nine {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+      height: 120px !important; }
+      body .main__body .section__nine .section__nine__content__card__mini {
+        height: 100%;
+        width: 95% !important; }
+        body .main__body .section__nine .section__nine__content__card__mini .hover__content__container {
+          -ms-flex-preferred-size: auto;
+          flex-basis: auto; }
