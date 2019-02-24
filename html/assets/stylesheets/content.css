@@ -32,7 +32,9 @@ body {
       margin-bottom: 2%; }
       body .main__body .content__title__section .content__title {
         font-family: gotham;
-        font-size: 25px; }
+        font-size: 25px;
+        width: 91%;
+        line-height: 30px; }
       body .main__body .content__title__section .content__subtitle {
         font-family: apercu;
         font-size: 13px;
@@ -57,8 +59,8 @@ body {
         -ms-flex-flow: column nowrap;
         flex-flow: column nowrap;
         width: 100%;
-        -ms-flex-preferred-size: 55%;
-        flex-basis: 55%;
+        -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between; }
@@ -162,3 +164,11 @@ body {
                 body .main__body .section__one .section__one__maxi .section__preview__ .content__creator__and__links .content__links .content__item__link:hover {
                   border-color: #B3B6B7;
                   cursor: pointer; }
+        body .main__body .section__one .section__one__maxi .content__containing__div p {
+          width: 98%;
+          font-size: 13px;
+          line-height: 21px;
+          font-family: acumin; }
+          body .main__body .section__one .section__one__maxi .content__containing__div p .large__indent {
+            margin: 18px 0 18px 0;
+            display: block; }

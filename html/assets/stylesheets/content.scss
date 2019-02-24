@@ -27,6 +27,8 @@ body {
             .content__title {
                 font-family: $boldText;
                 font-size: 25px;
+                width: 91%;
+                line-height: 30px;
             }
             .content__subtitle {
                 font-family: $mediumText;
@@ -41,7 +43,7 @@ body {
             flex-flow: row nowrap; //remember to change this to wrap;
             .section__one__maxi {
                 @include standard-column;
-                flex-basis: 55%;
+                flex-basis: 60%;
                 justify-content: space-between;
                 .section__preview__ {
                     @include standard-column;
@@ -112,6 +114,18 @@ body {
                                     cursor: pointer;
                                 }
                             }
+                        }
+                    }
+                }
+                .content__containing__div {
+                    p {
+                        width: 98%;
+                        font-size: 13px;
+                        line-height: 21px;
+                        font-family: $lightText;
+                        .large__indent {
+                            margin: 18px 0 18px 0;
+                            display: block;
                         }
                     }
                 }
