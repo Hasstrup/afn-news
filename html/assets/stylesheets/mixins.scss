@@ -45,6 +45,12 @@ $lightWhite: #BDC3C7;
     height: 100%;
 }
 
+@mixin standard-column {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
 @mixin hover-card {
     position: relative;
     .hover__card__image {
