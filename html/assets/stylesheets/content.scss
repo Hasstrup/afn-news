@@ -193,3 +193,37 @@ body {
     }
 
 }
+
+@media only screen and (min-width : 320px) and (max-width : 480px) { 
+    .main__body {
+        padding-top: 5% !important;
+    }
+    .section__one {
+        flex-wrap: wrap !important;
+        .section__one__maxi {
+            flex-basis: 100% !important;
+        }
+        .section__one__mini {
+            flex-basis: 80% !important;
+            padding-top: 2% !important;
+            .card__containing__grid {
+                height: auto !important;
+                justify-content: space-around;
+            }
+        }
+    }
+    .section__two {
+        .section__two__content__grid {
+            position: relative;
+            left: -4% !important;
+            .mid__card__ {
+                flex-basis: 44% !important;
+            }
+        }
+    }
+}
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .main__body {
+        padding-top: 5%
+    }
+}
