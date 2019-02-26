@@ -681,6 +681,8 @@ body {
        }
        .section__five {
            height: 100% !important;
+           width: 96% !important;
+           margin-bottom: 5% !important;
         .__section__grid__item {
             height: 250px !important;
             flex-basis: 45.3% !important;
@@ -703,5 +705,58 @@ body {
                 }
             }
        }
+       .section__six {
+           height: 100% !important;
+           width: 96% !important;
+           margin-bottom: -20% !important;
+           .section__six__content {
+               flex-wrap: wrap !important;
+               .__hover__card__containers {
+                   flex-basis: 100% !important;
+                   flex-wrap: wrap !important;
+                   margin-bottom: 12% !important;
+                   .hover__card {
+                       height: 50% !important;
+                       margin-bottom: 5% !important;
+                       flex-basis: 100% !important;
+                   }
+               }
+               .class__list__containers {
+                   flex-basis: 100% !important;
+               }
+           }
+       }
+       .section__seven {
+           height: 100% !important;
+           width: 96% !important;
+           .section__seven__first__grid {
+            flex-wrap: wrap !important;
+            .__section__grid__item {
+                height: 250px !important;
+                margin-bottom: 12px !important;
+                flex-basis: 45.3% !important;
+            } 
+           }
+           .section__seven__second__grid {
+               flex-wrap: wrap !important;
+               .hover__card {
+                   flex-basis: 100% !important;
+                   margin-bottom: 3% !important;
+                   height: 50% !important;
+                   &:nth-child(3) {
+                       display: none !important;
+                   }
+               }
+           }
+       }
+       .section__eight {
+           width: 96% !important;
+           height: 100% !important;
+           flex-wrap: wrap !important;
+           .section__eight__maxi {
+               flex-basis: 100% !important;
+           }
+       }
+
    }
 }
