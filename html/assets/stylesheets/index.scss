@@ -606,10 +606,10 @@ body {
        .--section__one {
            flex-flow: row wrap !important;
            .section__one__large__card {
-               flex-basis: 100% !important;
+               flex-basis: 95% !important;
                margin-bottom: 15px;
                .__card__image {
-                   width: 90% !important;
+                   width: 100% !important;
                    margin-bottom: 10px;
                }
                .__card__text {
@@ -622,7 +622,7 @@ body {
                display: none !important;
            }
            .section__one__mid__card {
-               flex-basis: 85% !important;
+               flex-basis: 95% !important;
                left: 0 !important
            }
        }
@@ -631,18 +631,52 @@ body {
                flex-wrap: wrap !important;
                height: auto !important;
                .section__two__content__card {
-                   flex-basis: 90% !important;
+                   flex-basis: 95% !important;
                    margin-bottom: 20px;
                }
                .grid__section__two {
-                   flex-basis: 90% !important;
+                   flex-basis: 95% !important;
                }
            }
            .section__two__mid__grid {
                display: none !important;
            }
        }
+       .section__three {
+             height: auto !important;
 
-
-   } 
+            .section__three__content {
+                flex-wrap: wrap !important;
+                .section__three__content__card {
+                    flex-basis: 95% !important;
+                    margin-bottom: 5% !important;
+                    .hover__card__image {
+                        width: 100% !important;
+                    } 
+                }
+                .section__three__content__grid {
+                    flex-basis: 100% !important;
+                    .mid__card__ {
+                        flex-basis: 46% !important;
+                        margin-right: 3.5% !important;   
+                    }
+                }
+            }       
+       }
+       .section__four__ {
+           height: auto;
+           .__section__four__content__grid {
+               flex-wrap: wrap !important;
+               .hover__card {
+                   flex-basis: 95% !important;
+               }
+               .section__four__content__card {
+                   margin-bottom: 15% !important;
+                   .hover__card__container {
+                       height: auto !important;
+                   }
+               }
+           }
+       }
+   }
 }
