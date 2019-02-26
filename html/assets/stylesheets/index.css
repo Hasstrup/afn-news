@@ -1191,4 +1191,40 @@ body {
     flex-wrap: wrap !important; }
     .main__body .section__eight .section__eight__maxi {
       -ms-flex-preferred-size: 100% !important;
+      flex-basis: 100% !important; }
+      .main__body .section__eight .section__eight__maxi .eight__maxi__section__uno .__uno__content {
+        -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important; }
+        .main__body .section__eight .section__eight__maxi .eight__maxi__section__uno .__uno__content .hover__card {
+          display: none !important; }
+        .main__body .section__eight .section__eight__maxi .eight__maxi__section__uno .__uno__content #cards__list {
+          margin-top: 4% !important;
+          -ms-flex-preferred-size: 100% !important;
+          flex-basis: 100% !important;
+          -webkit-box-pack: start !important;
+          -ms-flex-pack: start !important;
+          justify-content: flex-start !important; }
+          .main__body .section__eight .section__eight__maxi .eight__maxi__section__uno .__uno__content #cards__list .__list__card__content {
+            -ms-flex-preferred-size: 30.3% !important;
+            flex-basis: 30.3% !important;
+            margin-right: 3% !important;
+            padding: 0 !important;
+            margin-bottom: 6% !important; }
+            .main__body .section__eight .section__eight__maxi .eight__maxi__section__uno .__uno__content #cards__list .__list__card__content .__card__origin {
+              display: none; }
+      .main__body .section__eight .section__eight__maxi .eight__maxi__section__duo {
+        height: 100% !important;
+        -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important; }
+        .main__body .section__eight .section__eight__maxi .eight__maxi__section__duo .section__name {
+          padding-left: 0 !important; }
+        .main__body .section__eight .section__eight__maxi .eight__maxi__section__duo .__section__duo__content {
+          -ms-flex-preferred-size: 100% !important;
+          flex-basis: 100% !important;
+          margin-bottom: 4% !important; }
+          .main__body .section__eight .section__eight__maxi .eight__maxi__section__duo .__section__duo__content .__section__duo__content__grid {
+            padding: 0 !important; }
+    .main__body .section__eight .section__eight__mini {
+      margin: 0 !important;
+      -ms-flex-preferred-size: 100% !important;
       flex-basis: 100% !important; } }
