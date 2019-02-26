@@ -174,8 +174,7 @@ body {
         body .main__body .--section__one .section__one__large__card .__card__text h4 {
           font-size: 17px;
           font-family: apercu;
-          width: 80%;
-          margin-bottom: -3px; }
+          width: 80%; }
         body .main__body .--section__one .section__one__large__card .__card__text .__card__title__description {
           font-size: 11.5px;
           font-family: acumin;
@@ -1228,3 +1227,24 @@ body {
       margin: 0 !important;
       -ms-flex-preferred-size: 100% !important;
       flex-basis: 100% !important; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body .header {
+    display: none !important; }
+  body #bootstrap-nav {
+    display: block !important; }
+    body #bootstrap-nav .navbar-toggler {
+      float: right; }
+  body .main__body .--section__one .section__one__large__card {
+    margin-right: 1.5% !important; }
+    body .main__body .--section__one .section__one__large__card .__card__title__description {
+      width: 80%; }
+    body .main__body .--section__one .section__one__large__card .__card__image {
+      margin-bottom: 3%; }
+    body .main__body .--section__one .section__one__large__card .__card__links {
+      margin-top: -2%;
+      width: 80% !important; }
+      body .main__body .--section__one .section__one__large__card .__card__links p:nth-child(2) {
+        display: none; }
+  body .main__body .--section__one .__cards__list .__cards__header {
+    margin-bottom: 14%; } }
