@@ -1247,4 +1247,30 @@ body {
       body .main__body .--section__one .section__one__large__card .__card__links p:nth-child(2) {
         display: none; }
   body .main__body .--section__one .__cards__list .__cards__header {
-    margin-bottom: 14%; } }
+    margin-bottom: 14%; }
+  body .main__body .section__two {
+    margin-bottom: 5% !important; }
+    body .main__body .section__two .hover__card__title {
+      line-height: 23px !important;
+      bottom: 0 !important; }
+  body .main__body .section__three {
+    margin-bottom: 10% !important; }
+  body .main__body .section__four__ {
+    margin-bottom: -6% !important; }
+    body .main__body .section__four__ .section__four__content__card__mini .hover__card__container {
+      height: auto !important; }
+  body .main__body .section__five {
+    margin-bottom: 5%; }
+  body .main__body .section__six {
+    margin-bottom: 5% !important; }
+    body .main__body .section__six .__list__card {
+      margin-bottom: 10px;
+      padding-bottom: 2% !important; }
+    body .main__body .section__six .__card__origin {
+      display: none; }
+  body .main__body .section__seven {
+    margin-bottom: 5% !important; }
+  body .main__body .section__eight .__card__origin {
+    display: none; }
+  body .main__body .section__eight .__list__card__content {
+    margin-bottom: 20px; } }
