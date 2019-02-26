@@ -799,6 +799,7 @@ body {
                 body .main__body .section__eight .section__eight__maxi .eight__maxi__section__uno .__uno__content .__cards__list .__list__card__content .__card__origin {
                   margin-top: -4%;
                   font-size: 9px;
+                  display: none;
                   color: #CACFD2; }
         body .main__body .section__eight .section__eight__maxi .eight__maxi__section__duo {
           display: -webkit-box;
