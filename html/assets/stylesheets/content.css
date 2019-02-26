@@ -1,5 +1,9 @@
 body {
   padding-left: 5%; }
+  body .__header {
+    margin-bottom: 5% !important;
+    position: relative;
+    left: -5.6%; }
   body .section__right__grid p {
     text-transform: uppercase; }
   body .actionable__text {
