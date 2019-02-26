@@ -1051,3 +1051,8 @@ body {
         body .main__body .section__nine .section__nine__content__card__mini .hover__content__container {
           -ms-flex-preferred-size: auto;
           flex-basis: auto; }
+
+@media only screen and (min-width: 1824px) {
+  body {
+    width: 70%;
+    margin: 0 auto; } }
