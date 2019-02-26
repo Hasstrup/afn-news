@@ -2,117 +2,12 @@
 
 body {
     margin: 0;
-    .header {
-        display: flex;
-        height: 120px;
-        width: 100%;
-        flex-flow: column nowrap;
-        justify-content: space-around;
-        .header__section {
-            display: flex;
-            flex-basis: 50%;
-            height: 100%;
-            justify-content: center;
-        }
-        .section-one {
-            .__left {
-                display: flex;
-                flex-flow: row nowrap;
-                flex-basis: 45%;
-                .__left__title {
-                    font-size: 23px;
-                    font-family: $boldText;
-                    span {
-                        color: white;
-                        background-color: red;
-                        padding: 5px 5px;
-                    }
-                }
-                .__left__grid {
-                    @include grid; 
-                    justify-content: space-evenly;
-                    width: 42%;
-                    .__left__grid__item {
-                        height: 25px;
-                        margin-top: 15px;
-                        font-size: 8.5px;
-                        font-family: $lightText;
-                        text-align: center;
-                        padding-top: 13px;
-                        border:  .5px solid #D7DBDD80;
-                        &:hover {
-                            cursor: pointer;
-                        }
-                        p {
-                            width: 60%;
-                            position: relative;
-                            top: -10px;
-                            left: 10px;
-                            font-weight: 700;
-                        }
-                    }  
-                }
-            }
-            .__right {
-                display: flex;
-                flex-basis: 55%;
-                .section__right__grid {
-                    display: flex;
-                    width: 100%;
-                    flex-flow: row nowrap;
-                    justify-content: space-between;
-                    position: relative;
-                    bottom: -15px; 
-                    p {
-                        font-family: $lightText;
-                        font-size: 12px;
-                        margin-right: 5px;
-                        color: #D5D8DC;
-                    }
-                }
-            }
-        }
-        .section-two {
-            width: 100%;
-            display: flex;
-            flex-flow: row nowrap;
-            justify-content: space-around;
-            .section-two__grid {
-                display: flex;
-                flex-flow: row nowrap;
-                justify-content: space-around;
-                flex-basis: 64%;
-                p {
-                    font-size: 10.5px;
-                    font-family: $mediumText;
-                    font-weight: bold;
-                    text-transform: uppercase;
-                    &:hover {
-                        cursor: pointer;
-                        text-decoration: underline;
-                    }
-                }
-            }
-            .--input__tag {
-                color: #909497;
-                background-color: $lightWhite;
-                outline: none;
-                height: 30px;
-                width: 180px;
-                border-radius: 3px;
-                border: none;
-                padding-left: 10px;
-
-            }
-        }
-      
-    }
     // END OF HEADER SCSS
     .main__body {
         display: flex;
         flex-flow: column nowrap;
         justify-content: space-between;
-        padding-left: 5%;
+        padding-left: 6%;
         .main__body__section {
             display: flex;
             min-height: 360px;
@@ -593,10 +488,45 @@ body {
 }
 
 // REALLY LARGE SCREENS
-@media only screen and (min-width: 1824px) {
+@media only screen and (min-width: 1524px) {
     body {
-        width: 70%;
+        width: 80%;
+        position: relative;
+        right: -10%;
         margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .main__body {
+        .main__body__section {
+            margin-bottom: 2% !important;
+        }
+        #section_three {
+            margin-bottom: 6% !important;
+        }
+        .section__two__large__grid {
+            .grid__section__two {
+                position: relative;
+                bottom: -5%;
+            }
+        }
+        .section__two__mid__grid {
+            .section__two__grid {
+                position: relative;
+                left: -1.3%;
+            }
+        }
+        .section__seven__second__grid {
+            justify-content: flex-start !important;
+            .section__seven__content__card__mini {
+                margin-right: 2.4% !important;
+            }
+        }
+        .eight__maxi__section__duo {
+            position: relative;
+            left: -3%;
+        }
     }
 }
 
@@ -801,7 +731,7 @@ body {
 
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
     body {
-        .header {
+        .__header {
             display: none !important
         }
         #bootstrap-nav {
