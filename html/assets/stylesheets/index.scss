@@ -665,6 +665,7 @@ body {
        }
        .section__four__ {
            height: auto;
+           margin-bottom: 5% !important;
            .__section__four__content__grid {
                flex-wrap: wrap !important;
                .hover__card {
@@ -677,6 +678,30 @@ body {
                    }
                }
            }
+       }
+       .section__five {
+           height: 100% !important;
+        .__section__grid__item {
+            height: 250px !important;
+            flex-basis: 45.3% !important;
+        }
+            .__section__grid__ {
+                flex-wrap: wrap !important;
+                .__section__grid__item {
+                    margin-bottom: 12px !important;
+                    &:nth-child(3) {     
+                        display: none !important;
+                    }
+                }
+            }
+            .__section__grid__midi {
+                flex-wrap: wrap !important;
+                .__section__grid__item {
+                    &:nth-child(1) {     
+                        margin-bottom: 12px !important;
+                    }
+                }
+            }
        }
    }
 }
