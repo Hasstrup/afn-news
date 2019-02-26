@@ -41,6 +41,20 @@
     @include section-card
 }
 
+#bootstrap-nav {
+    display: none;
+}
+
+.__left__title {
+    font-size: 23px;
+    font-family: $boldText;
+    span {
+        color: white;
+        background-color: red;
+        padding: 5px 5px;
+    }
+}
+
 .header {
     display: flex;
     height: 120px;
@@ -56,15 +70,6 @@
             display: flex;
             flex-flow: row nowrap;
             flex-basis: 45%;
-            .__left__title {
-                font-size: 23px;
-                font-family: $boldText;
-                span {
-                    color: white;
-                    background-color: red;
-                    padding: 5px 5px;
-                }
-            }
             .__left__grid {
                 @include grid; 
                 justify-content: space-evenly;
@@ -109,3 +114,17 @@
         }
     }
 }
+
+
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+        .header {
+            display: none !important
+        }
+        #bootstrap-nav {
+            display: block !important;
+            .navbar-toggler {
+                float: right;
+            }
+        }
+    }
