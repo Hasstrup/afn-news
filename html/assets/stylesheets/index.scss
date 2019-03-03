@@ -495,6 +495,7 @@ body {
         position: relative;
         right: -10%;
         margin: 0 auto;
+        
     }
 }
 
@@ -518,12 +519,20 @@ body {
                 left: -1.3%;
             }
         }
+        .section__five {
+            
+            // .__section__grid__item {
+            //     flex-basis: 300px !important;
+            //     height: 300px !important;
+            // }
+        }
         .section__seven__second__grid {
             justify-content: flex-start !important;
             .section__seven__content__card__mini {
                 margin-right: 2.4% !important;
             }
         }
+        
         .eight__maxi__section__duo {
             position: relative;
             left: -3%;

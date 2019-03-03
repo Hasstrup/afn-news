@@ -107,12 +107,18 @@
                         left: 10px;
                         font-weight: 700;
                     }
-                }  
+                }
             }
         }
         .__right {
             display: flex;
             flex-basis: 55%;
+            position: relative;
+            left: -8%;
+            #date__content {
+                position: relative;
+                left: -2%;
+            }  
             .section__right__grid {
                 display: flex;
                 width: 100%;

@@ -230,7 +230,12 @@
     display: -ms-flexbox;
     display: flex;
     -ms-flex-preferred-size: 55%;
-    flex-basis: 55%; }
+    flex-basis: 55%;
+    position: relative;
+    left: -8%; }
+    .__header .section-one .__right #date__content {
+      position: relative;
+      left: -2%; }
     .__header .section-one .__right .section__right__grid {
       display: -webkit-box;
       display: -ms-flexbox;
