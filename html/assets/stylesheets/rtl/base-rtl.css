@@ -1,0 +1,49 @@
+/* 10 of 210 CSS properties converted by rtl.daskhat.ir 
+ These properties should be override originals. 
+ just load rtl css file after original css file.*/ 
+
+/* body {direction:rtl;} */
+
+.hover__card .hover__card__container .hover__content__container{
+    padding-right: 5%;
+}
+
+.__section__grid__item .__grid__description{
+    padding-right: 4%;
+}
+
+.__header .section-one .__left{
+    right: -.5%;
+}
+
+.__header .section-one .__left .__left__grid .__left__grid__item p{
+    right: 10px;
+}
+
+.__header .section-one .__right{
+    right: -8%;
+}
+
+.__header .section-one .__right #date__content{
+    right: -2%;
+}
+
+.__header .section-one .__right .section__right__grid p{
+    margin-left: 5px;
+}
+
+.__header .section-two .section-two__input{
+    right: -4%;
+}
+
+.--input__tag{
+    padding-right: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+    #bootstrap-nav .navbar-toggler{
+        float: left;
+    }
+
+}
+
