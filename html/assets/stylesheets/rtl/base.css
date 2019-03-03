@@ -2,7 +2,7 @@
  These properties should be override originals. 
  just load rtl css file after original css file.*/ 
 
-/* body {direction:rtl;} */
+body {direction:rtl;}
 
 .hover__card .hover__card__container .hover__content__container{
     padding-right: 5%;

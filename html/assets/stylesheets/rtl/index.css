@@ -1,0 +1,205 @@
+/* 40 of 853 CSS properties converted by rtl.daskhat.ir 
+ These properties should be override originals. 
+ just load rtl css file after original css file.*/ 
+
+body {
+    direction:rtl
+}
+.__card__text {
+    padding-left: 22%;
+}
+body .main__body{
+    padding-left: 6%;
+}
+
+.__card__title__text {
+    position: relative;
+    left: -20%;
+}
+.section__three__content__grid .mid__card__ {
+    flex-basis: 45% !important;
+}
+body .main__body .--section__one .section__one__mid__card{
+    right: -9%;
+}
+
+body .main__body .--section__one .__cards__list{
+    margin: -2% -6.5% 0 0 ;
+}
+
+body .main__body .--section__one .__cards__list .__ordered__list li{
+    padding-right: 0;
+}
+
+body .main__body .--section__one .__cards__list .__ordered__list li .video__indicator{
+    float: left;
+}
+
+body .main__body .section__two .section__two__large__grid .section__two__content__card{
+    margin-left: 2%;
+}
+
+body .main__body .section__two .section__two__large__grid .section__two__content__card .hover__card__container .hover__content__container{
+    padding-right: 5%;
+}
+
+body .main__body .section__two .section__two__large__grid .grid__section__two .video__section .hover__card__container .hover__content__container{
+    padding-right: 5%;
+}
+
+body .main__body .section__two .section__two__large__grid .grid__section__two .__list__ li{
+    padding-right: 0;
+}
+
+body .main__body .section__two .section__two__large__grid .grid__section__two .__list__ li .video__indicator{
+    float: left;
+}
+
+body .main__body .section__two .section__two__mid__grid .section__two__grid .mid__card__{
+    border-left: 1px solid #E5E7E9;
+}
+
+body .main__body .section__three .section__three__content .hover__card .hover__card__container .hover__content__container{
+    padding-right: 5%;
+}
+
+body .main__body .section__three .section__three__content .section__three__content__grid .mid__card__{
+    margin-left: 2%;
+}
+
+body .main__body .section__four__ .__section__four__content__grid .section__four__content__card{
+    margin-left: 2%;
+}
+
+body .main__body .section__five .__section__grid__container .__section__grid__{
+    padding-right: 1%;
+}
+
+body .main__body .section__five .__section__grid__container .__section__grid__ .__section__grid__item{
+    margin-left: 3%;
+}
+
+body .main__body .section__five .__section__grid__container .__section__grid__ .__section__grid__item .__grid__description{
+    padding-right: 4%;
+}
+
+body .main__body .section__five .__section__grid__container .__section__grid__midi{
+    padding-right: 1%;
+}
+
+body .main__body .section__five .__section__grid__container .__section__grid__midi .__section__grid__item{
+    margin-left: 3.6%;
+}
+
+body .main__body .section__six .section__six__content .__hover__card__containers .hover__card{
+    margin-left: 3%;
+}
+
+body .main__body .section__six .section__six__content .class__list__containers{
+    right: -4%;
+}
+
+body .main__body .section__seven .section__seven__content .section__seven__first__grid{
+    padding: 0 5px 10px 0 ;
+}
+
+body .main__body .section__seven .section__seven__content .section__seven__first__grid .__section__grid__item{
+    margin-left: 3%;
+}
+
+body .main__body .section__eight .section__eight__maxi .eight__maxi__section__uno .__uno__content div{
+    margin-left: 3%;
+}
+
+body .main__body .section__eight .section__eight__maxi .eight__maxi__section__uno .__uno__content .__cards__list .__list__card__content{
+    margin-left: 5%;
+}
+
+body .main__body .section__eight .section__eight__maxi .eight__maxi__section__duo .content__9{
+    border-right: none !important;
+}
+
+body .main__body .section__eight .section__eight__maxi .eight__maxi__section__duo .__section__duo__content .section__name{
+    padding-right: 7%;
+}
+
+body .main__body .section__eight .section__eight__maxi .eight__maxi__section__duo .__section__duo__content .__section__duo__content__grid{
+    padding: 0 5% 0 5% ;
+}
+
+body .main__body .section__eight .section__eight__maxi .eight__maxi__section__duo .__section__duo__content .__section__duo__content__grid .__list__card__content{
+    margin-left: 5%;
+}
+
+body .main__body .section__eight .section__eight__mini{
+    margin-right: -4%;
+}
+
+
+body .main__body .section__five .__section__grid__container .__section__grid__ .__section__grid__item {
+    margin-right: 0;
+}
+
+.section__name {
+    width: 120px;
+}
+
+body .main__body .section__six .section__six__content .class__list__containers {
+    right: auto;
+}
+
+.hover__card__title {
+    width: auto !important;
+}
+@media only screen and (min-width: 1524px){
+    body{
+      
+    }
+
+}
+
+@media only screen and (min-width: 1024px){
+    .main__body .section__two__mid__grid .section__two__grid{
+        right: -1.3%;
+    }
+
+    .main__body .section__seven__second__grid .section__seven__content__card__mini{
+        margin-left: 2.4% !important;
+    }
+
+    .main__body .eight__maxi__section__duo{
+        right: -3%;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .main__body .--section__one .section__one__mid__card{
+        right: 0 !important;
+    }
+
+    .main__body .section__three .section__three__content .section__three__content__grid .mid__card__{
+        margin-left: 3.5% !important;
+    }
+
+    .main__body .section__eight .section__eight__maxi .eight__maxi__section__uno .__uno__content #cards__list .__list__card__content{
+        margin-left: 3% !important;
+    }
+
+    .main__body .section__eight .section__eight__maxi .eight__maxi__section__duo .section__name{
+        padding-right: 0 !important;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    body #bootstrap-nav .navbar-toggler{
+        float: left;
+    }
+
+    body .main__body .--section__one .section__one__large__card{
+        margin-left: 1.5% !important;
+    }
+
+}
+
