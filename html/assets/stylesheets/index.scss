@@ -699,7 +699,7 @@ body {
                    .__uno__content {
                        flex-wrap: wrap !important;
                        .hover__card {
-                           display: none !important;
+                           flex-basis: 100% !important;
                        }
                        #cards__list {
                            margin-top: 4% !important;

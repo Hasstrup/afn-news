@@ -1085,7 +1085,8 @@ body {
         -ms-flex-wrap: wrap !important;
         flex-wrap: wrap !important; }
         .main__body .section__eight .section__eight__maxi .eight__maxi__section__uno .__uno__content .hover__card {
-          display: none !important; }
+          -ms-flex-preferred-size: 100% !important;
+          flex-basis: 100% !important; }
         .main__body .section__eight .section__eight__maxi .eight__maxi__section__uno .__uno__content #cards__list {
           margin-top: 4% !important;
           -ms-flex-preferred-size: 100% !important;
