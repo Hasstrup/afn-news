@@ -505,7 +505,7 @@ body {
             font-size: 16px !important; }
     body .main__body .section__five {
       padding: 5px;
-      height: 500px;
+      height: 70vh;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
@@ -1156,7 +1156,7 @@ body {
   body .main__body .section__three {
     margin-bottom: 10% !important; }
   body .main__body .section__four__ {
-    margin-bottom: -6% !important; }
+    margin-bottom: -1% !important; }
     body .main__body .section__four__ .section__four__content__card__mini .hover__card__container {
       height: auto !important; }
   body .main__body .section__five {
